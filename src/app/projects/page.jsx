@@ -9,35 +9,26 @@ export const metadata = {
 
 const companies = [
   {
-    name: "Company 1",
-    description: "Description of company 1",
-    link: "https://www.company1.com",
+    name: "Portfolio Project",
+    description: "Creating my Porfolio with ReacJS",
+    link: "https://github.com/nydelmastro/Portfolio",
   },
   {
-    name: "Company 2",
-    description: "Description of company 2",
-    link: "https://www.company2.com",
+    name: "DuocUC Project",
+    description: "App for DuocUC",
+    link: "https://github.com/nydelmastro/ProyectoPractica",
   },
   {
-    name: "Company 3",
-    description: "Description of company 3",
+    name: "Future project",
+    description: "Thinking about it",
     link: "https://www.company3.com",
   },
   {
-    name: "Company 4",
-    description: "Description of company 4",
-    link: "https://www.company4.com",
+    name: "Future project",
+    description: "Thinking about it",
+    link: "https://www.company3.com",
   },
-  {
-    name: "Company 5",
-    description: "Description of company 5",
-    link: "https://www.company5.com",
-  },
-  {
-    name: "Company 6",
-    description: "Description of company 6",
-    link: "https://www.company6.com",
-  },
+
 ];
 
 export default function Projects() {

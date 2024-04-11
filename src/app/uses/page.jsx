@@ -12,19 +12,19 @@ const items = [
     groupName: 'Workstation',
     items: [
       {
-        title: '16” MacBook Pro, M1 Max, 64GB RAM (2022)',
+        title: 'Ryzen 7 5800x does the work',
         description:
-          'I was using an Intel-based 16” MacBook Pro prior to this and the difference is night and day. I’ve never heard the fans turn on a single time, even under the incredibly heavy loads I put it through with our various launch simulations.',
+          ' I am currently using a Ryzen 7 5800 desktop computer, and the difference from my previous Intel-based 16” MacBook Pro is astounding. Even under heavy loads, such as our various launch simulations, Ive yet to hear the fans turn on—a significant improvement.',
       },
       {
-        title: 'Dell UltraSharp U2717D',
+        title: 'HP 2k Resolution Monitor',
         description:
-          'I have two of these monitors and they’re great. I’ve had them for years and they’ve been rock solid.',
+          'Bigger resolution, the better',
       },
       {
-        title: 'Keychron K2',
+        title: 'Asus Azoth 75%',
         description:
-          'I’ve been using this keyboard for a few years now and I love it. It’s wireless, has a great feel, and the battery lasts forever.',
+          'This keyboard is great. It’s wireless, has a great feel, and the battery lasts forever. I’ve been using this keyboard for a few years now and it’s great.',
       },
       {
         title: 'Logitech MX Master 3',
@@ -32,29 +32,19 @@ const items = [
           'I’ve been using this mouse for a few years now and it’s great. It’s wireless, has a great feel, and the battery lasts forever.',
       },
       {
-        title: 'Audio-Technica ATH-M50x',
+        title: 'Steelseries Nova pro wireless',
         description:
-          'I’ve been using these headphones for a few years now and they’re great. They’re comfortable, sound good, and are built like a tank.',
-      },
-      {
-        title: 'Rain Design mStand',
-        description:
-          'I’ve been using this stand for my MacBook Pro for a few years now and it’s great. It’s sturdy, looks good, and keeps my laptop cool.',
+          'The nova pro wireless is a great headset. It’s wireless, has a great feel, and the battery lasts forever.',
       },
     ],
   },
   {
-    groupName: 'Development',
+    groupName: 'Coding',
     items: [
       {
-        title: 'Visual Studio Code',
+        title: 'Github Codespaces',
         description:
-          'I use VS Code for all of my development work. It’s fast, has great extensions, and is highly customizable.',
-      },
-      {
-        title: 'iTerm2 + Oh My Zsh',
-        description:
-          'I use iTerm2 as my terminal and Oh My Zsh as my shell. It’s a great combination. I use the Agnoster theme with the Fira Code font.',
+          'Codespaces with copilot is a great combination. It’s fast, has great features, and is highly customizable.',
       },
     ],
   },
@@ -64,12 +54,12 @@ const items = [
       {
         title: 'Figma',
         description:
-          'I use Figma for all of my design work. It’s fast, has great collaboration features, and is highly customizable.',
+          'Easy to use, great desings',
       },
       {
         title: 'Whimsical',
         description:
-          'I use Whimsical for all of my wireframing and flowcharting. It’s fast, has great collaboration features, and is highly customizable.',
+          'Easy to use, great desings. I use Whimsical for all of my wireframing and flowchart needs. It’s fast, has great features, and is highly customizable.',
       },
     ],
   },
@@ -77,15 +67,11 @@ const items = [
     groupName: 'Productivity',
     items: [
       {
-        title: 'Notion',
+        title: 'Teams',
         description:
-          'I use Notion for all of my note-taking and knowledge management. It’s fast, has great collaboration features, and is highly customizable.',
+          'Teams was a great tool for communication and collaboration. It’s fast, and the features are great.',
       },
-      {
-        title: 'Alfred',
-        description:
-          'I use Alfred for all of my productivity needs. It’s fast, has great features, and is highly customizable.',
-      },
+
     ],
   },
 ];
@@ -94,8 +80,8 @@ export default function Uses() {
   return (
     <div>
     <Profile
-        title="My Equipment"
-        content="As a computer science programmer, my equipment typically consists of the following:"
+        title="My set up"
+        content="As a cybersecurity analyst, my equipment typically consists of the following:"
       />
       <UsesSection items={items} />
     </div>
